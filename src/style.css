@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(214, 214, 221);
+}
+
+.heading-original {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.photo-name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading-navbar ul {
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.heading-navbar a {
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+    padding: 10px;
+    background-color: rgba(0, 122, 12,0.75);
+    border-radius: 10px;
+}
+
+.heading-navbar a:hover{
+    background-color: rgba(0, 122, 12,1);
+}
+
+.heading-navbar li:hover{
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+}
+
+main{ 
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    width: 1200px;
+    height: 490px;
+}
+
+.heading-navbar {
+    align-items: center;
+}
+
+.description-top {
+    align-items: center;
+    justify-content: center;
+}
+
+.img-minha-foto {
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.footer .footer-icons {
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons img {
+    width: 40px;
+    margin: 30px;
+}
+
+.header-about-me h1{
+    padding-bottom: 20px;
+}
+
+.header-project1{
+    margin-bottom: 35px;
+}
+
+.article-dad {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-project1 caption{
+    margin: 5px;
+}
+
+.table-project1 table{
+    background-color: black;
+    border-radius: 3px;
+}
+
+.table-project1 th{
+    height: 25px;
+}
+
+.table-project1 td{
+    height: 50px;
+}
+
+.img-project1{
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.header-project2, .description-geral-project2{
+    margin-bottom: 30px;
+}
+
+.description-funcionalidades-project2 p{
+    margin-bottom: 3px;
+}
+
+.article-dad{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-project2{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #909090;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type = "submit"]{
+    background-color: rgba(209, 209, 51, 0.6);
+}
+
+input[type = "submit"]:hover{
+    background-color: rgba(209, 209, 51, 1);
+}

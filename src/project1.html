@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto 1</title>
+</head>
+
+<body>
+    <section class="project1">
+        <header class="header-project1">
+            <h1>Projeto 1</h1>
+            <p><i>Descrição de atributos banco de dados de e-Comerce  </i></p>
+        </header>
+        <article class = "article-dad">
+            <article class="table-project1">
+                <table border="1">
+                    <caption>Tabela Projeto Banco de Dados</caption>
+                    <tr>
+                        <th>Entidade</th>
+                        <th>Atributos</th>
+                    </tr>
+                    <tr>
+                        <td>Cliente</td>
+                        <td>id_cliente (PK), nome, sobrenome, email, telefone, cpf</td>
+                    </tr>
+                    <tr>
+                        <td>Endereço</td>
+                        <td>id_endereco (PK), codigo_postal, estado, rua_nome, rua_complemento, id_cliente (FK)</td>
+                    </tr>
+                    <tr>
+                        <td>Pedido</td>
+                        <td>id_pedido (PK), data_pedido, valor_total, id_cliente (FK)</td>
+                    </tr>
+                    <tr>
+                        <td>Pagamento</td>
+                        <td>id_pagamento (PK), forma_pagamento, data_pagamento, pagamento_valido</td>
+                    </tr>
+                    <tr>
+                        <td>Carrinho</td>
+                        <td>id_carrinho (PK), id_pedido (FK), id_produto (FK), quantidade_produto, preco_por_item</td>
+                    </tr>
+                    <tr>
+                        <td>Produto</td>
+                        <td>id_produto (PK), nome_produto, valor_produto, marca_produto, tipo_produto,
+                            quantidade_estoque
+                        </td>
+                    </tr>
+                </table>
+            </article>
+            <article class="article-img-project1">
+                <img src="img/projeto banco de dados 1.png" alt="Modelo conceitual bd1" class="img-project1">
+            </article>
+        </article>
+    </section>
+</body>
+
+</html>
